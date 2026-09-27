@@ -1,0 +1,3 @@
+[submodule "mouse-bite.pretty"]
+	path = mouse-bite.pretty
+	url = https://github.com/AchimPieters/mouse-bite.pretty.git
