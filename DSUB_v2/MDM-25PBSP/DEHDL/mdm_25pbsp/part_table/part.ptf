@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MDM_25PBSP'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ITT CANNON", "MDM-25PBSP" (!) = "", "MDM25PBSP", "Other", "965-MDM-25PBSP", "https://www.mouser.co.uk/ProductDetail/ITT-Cannon/MDM-25PBSP?qs=%2FPVulymFwT3mrCwbZuIR5w%3D%3D", "D-Sub Micro-D Connectors MICRO 25 M PC JACKP", "https://ittcannon.canto.com/direct/document/863c6k08rd7hd54715eqt9le2o/tZR72R4vbF_tKN-i-3jkBf1AQkY/original?content-type=application%2Fpdf&name=ITT-Cannon-Microminiature-Connectors-Catalog.pdf", "13.74 mm"
+END_PART
+
+END.
