@@ -169,7 +169,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -540,7 +540,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -553,8 +553,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -577,7 +577,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.1524,
         "line_style": 0,
@@ -587,10 +587,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 1.0,
         "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -751,7 +751,7 @@
         "uuid": "43a14322-932b-47ff-87dc-bcc212cfc6fa"
       }
     ],
-    "used_designators": "#PWR8-15",
+    "used_designators": "L1-4,R5-12,C1-8,H9-20,#PWR8-17",
     "variants": []
   },
   "sheets": [
